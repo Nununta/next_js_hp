@@ -1,12 +1,12 @@
 import Layout from "../components/Layout";
 import Image from "next/image";
 
-const Contact = () => {
+export default function Contact() {
   return (
     <Layout title="Contact">
       <div className="bg-white text-center shadow-xl p-8 w-80 rounded">
         <div className="mt-4">
-          <p className="font-bold">Content Info</p>
+          <p className="font-bold">Content Info Update</p>
         </div>
         <div className="flex justify-center mt-4">
           <Image
@@ -79,6 +79,4 @@ const Contact = () => {
       </div>
     </Layout>
   );
-};
-
-export default Contact;
+}
